@@ -7,23 +7,25 @@
 #leftSide {
   padding: 8px;
   background-color: rgb(223, 176, 23);
-  float: left;
 }
 
 #rightSide {
   padding: 8px;
   background-color: rgb(223, 176, 23);
-  float: right;
 }
 
 #mainContent {
 clear: both;
-text-align: center  
+text-align: center;  
 }
 
 #cardsContainer {
  display: inline-block;
- margin: 18px; 
+ margin: 18px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ flex-wrap: wrap;
 }
 
 .card {
@@ -31,7 +33,6 @@ text-align: center
   background-color: rgb(253, 253, 253);
   margin-right: 10px;
   margin-top: 10px;
-  float: left;
   border: 1px solid rgb(223, 176, 23);
   border-radius:5px;
   height: 300px;
@@ -51,6 +52,8 @@ text-align: center
 .headerBox {
   background-color: rgb(223, 176, 23);
   overflow: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .submit {
@@ -61,7 +64,7 @@ text-align: center
   width: 100%;
 }
 
-.btn {
+.btn_info {
   border: none;
   background-color: rgb(223, 176, 23);
   padding: 7px;
@@ -69,8 +72,12 @@ text-align: center
   cursor: pointer;
   display: inline-block;
   width: 155px;
-  margin-top: 125px;
+  margin-top: 150px;
   border: 1px solid rgb(223, 176, 23);
   border-radius:2px;
   height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
