@@ -1,0 +1,76 @@
+.body {
+  background-color: rgb(252, 248, 216);
+  padding: 0;
+  margin: 0;
+}
+
+#leftSide {
+  padding: 8px;
+  background-color: rgb(223, 176, 23);
+  float: left;
+}
+
+#rightSide {
+  padding: 8px;
+  background-color: rgb(223, 176, 23);
+  float: right;
+}
+
+#mainContent {
+clear: both;
+text-align: center  
+}
+
+#cardsContainer {
+ display: inline-block;
+ margin: 18px; 
+}
+
+.card {
+  padding: 50px;
+  background-color: rgb(253, 253, 253);
+  margin-right: 10px;
+  margin-top: 10px;
+  float: left;
+  border: 1px solid rgb(223, 176, 23);
+  border-radius:5px;
+  height: 300px;
+  width: 125px;
+  text-align: left;
+}
+
+.card, h3 {
+ padding-top: 0;
+ padding-left: 1px;
+}
+
+.card, p {
+  padding-left: 20px;
+}
+
+.headerBox {
+  background-color: rgb(223, 176, 23);
+  overflow: auto;
+}
+
+.submit {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#submitButton {
+  width: 100%;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(223, 176, 23);
+  padding: 7px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+  width: 155px;
+  margin-top: 125px;
+  border: 1px solid rgb(223, 176, 23);
+  border-radius:2px;
+  height: 30px;
+}
